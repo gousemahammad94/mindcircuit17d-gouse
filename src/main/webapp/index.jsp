@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:orange;">
+<body style="background-color:Green;">
 
-<h1>WELCOME TO JENKINS PIPELINE WORLD </h1>
+<h1>WELCOME TO JENKINS PIPELINE WORLD created By Gouse </h1>
 
 
 </body>
