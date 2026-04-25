@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkout') {
+            steps {
+                echo 'git checkout stage'
+				git branch: 'main', credentialsId: 'tomcat', url: 'https://github.com/gousemahammad94/mindcircuit17d-gouse.git'
+            }
+		}
+			stage('build') {
+            steps {
+                echo 'mvn build'
+				sh 'mvn clean install'
+            }
+		}
+			stage('delpoy') {
+            steps {
+                echo 'deploy tomact'
+				deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://98.93.116.68:8080/')], contextPath: 'instagram', war: '**/*.war'
+            }
+		
+        }
+    }
+}
