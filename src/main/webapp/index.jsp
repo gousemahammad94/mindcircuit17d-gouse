@@ -12,8 +12,7 @@
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 	<!-- This site is optimized with the Yoast SEO plugin v27.2 - https://yoast.com/product/yoast-seo-wordpress/ -->
-	<title>Home - MindCircuit – Best AWS &amp; DevOps Training Institute | Online &amp; Classroom</title>
-<h1>this is gouse</h1>
+	<title>Home - MindGouse – Best AWS &amp; DevOps Training Institute | Online &amp; Classroom</title>
 	<link rel="canonical" href="https://mindcircuit.in/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
