@@ -13,6 +13,7 @@
 
 	<!-- This site is optimized with the Yoast SEO plugin v27.2 - https://yoast.com/product/yoast-seo-wordpress/ -->
 	<title>Home - MindCircuit – Best AWS &amp; DevOps Training Institute | Online &amp; Classroom</title>
+<h1>this is gouse</h1>
 	<link rel="canonical" href="https://mindcircuit.in/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
