@@ -33,6 +33,13 @@ pipeline {
 				
             }
         }	
+		stage('Deploy to pre-UAT') {
+            steps {
+                echo 'Deploying to tomcat'
+				deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://54.173.180.191:8081//')], contextPath: 'insta-preUAT', war: '**/*.war'
+				
+            }
+        }	
 		stage('Deploy to sandbox') {
             steps {
                 echo 'Deploying to tomcat'
